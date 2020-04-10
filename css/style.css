@@ -1,89 +1,64 @@
-#header {
-    margin-left: 30%;
-}
-
 li {
-    list-style-type:none;
+    list-style-type: none;
 }
 
-/* Sidebar */
+a {
+    color: ivory;
+}
+
+/* sideBar */
 
 #sidebar {
-    min-height: 100vh;
-    margin-top: -10%;
-    background-color: #374757;
-    max-width: 25%;
-    min-width: 25%;
+    background-color: grey;
+    padding-bottom: 100%;
     color: white;
 }
 
-#coordonees {
-    margin-bottom: 5%;
-    margin-left: 2%;
+#pp {
+    margin-left: 35%;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
 }
 
-#skills {
-    margin-bottom: 5%;
-    padding-top: 5%;
-    margin-left: 2%;
+#presentation {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#coordonees {
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#competences {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 22%;
 }
 
 #langues {
-    margin-bottom: 5%;
-    padding-top: 5%;
-    margin-left: 2%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
 }
 
-#certifications {
-    margin-bottom: 5%;
-    padding-top: 5%;
-    margin-left: 2%;
-}
-
-#contact {
-    padding-top: 5%;
-}
-
-#twitter {
+#formations {
+    text-align: center;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
-#linkedin {
-    margin-left: 5%;
+/* corps */
+
+#emplois {
+    margin-top: 2%;
 }
 
-#gmail {
-    margin-left: 2%;
-}
-
-/* Corps */
-
-#experiences-left {
-    margin-left: 30%;
-    margin-top: -40%;
-}
-
-#experiences-right {
-    margin-left: 60%;
-    margin-top: -39%;
-}
-
-#balso {
-    margin-bottom: 2%;
-}
-
-#servi-trans {
-    margin-bottom: 2%;
-}
-
-#marandaise {
-    margin-bottom: 2%;
-}
-
-#leclerc {
-    margin-bottom: 2%;
-}
-
-#super {
-    margin-bottom: 2%;
+#ligne2 {
+    margin-top: 5%;
 }
