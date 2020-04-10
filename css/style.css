@@ -1,0 +1,89 @@
+#header {
+    margin-left: 30%;
+}
+
+li {
+    list-style-type:none;
+}
+
+/* Sidebar */
+
+#sidebar {
+    min-height: 100vh;
+    margin-top: -10%;
+    background-color: #374757;
+    max-width: 25%;
+    min-width: 25%;
+    color: white;
+}
+
+#coordonees {
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+#skills {
+    margin-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 2%;
+}
+
+#langues {
+    margin-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 2%;
+}
+
+#certifications {
+    margin-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 2%;
+}
+
+#contact {
+    padding-top: 5%;
+}
+
+#twitter {
+    margin-left: 5%;
+}
+
+#linkedin {
+    margin-left: 5%;
+}
+
+#gmail {
+    margin-left: 2%;
+}
+
+/* Corps */
+
+#experiences-left {
+    margin-left: 30%;
+    margin-top: -40%;
+}
+
+#experiences-right {
+    margin-left: 60%;
+    margin-top: -39%;
+}
+
+#balso {
+    margin-bottom: 2%;
+}
+
+#servi-trans {
+    margin-bottom: 2%;
+}
+
+#marandaise {
+    margin-bottom: 2%;
+}
+
+#leclerc {
+    margin-bottom: 2%;
+}
+
+#super {
+    margin-bottom: 2%;
+}
