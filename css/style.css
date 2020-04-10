@@ -9,9 +9,9 @@ a {
 /* sideBar */
 
 #sidebar {
-    background-color: grey;
-    padding-bottom: 100%;
-    color: white;
+    background-color: #E7E3DD;
+    color: black;
+    height: 100%;
 }
 
 #pp {
@@ -30,7 +30,7 @@ a {
 }
 
 #coordonees {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     margin-left: 10%;
 }
@@ -50,6 +50,20 @@ a {
 #formations {
     text-align: center;
     margin-top: 5%;
+    margin-left: 5%;
+}
+
+#logoLinkedIn {
+    width: 30px;
+}
+
+#logoTwitter {
+    width: 30px;
+    margin-left: 5%;
+}
+
+#logoGmail {
+    width: 30px;
     margin-left: 5%;
 }
 
@@ -125,13 +139,27 @@ a {
         text-align: center;
         margin-top: 5%;
         padding-top: 2%;
-        background-color: grey;
-        color: white;
+        background-color: #E7E3DD;
+        color: black;
     }
 
     #contactRow2 {
         margin-top: 5%;
         padding-bottom: 2%;
+    }
+
+    #logoLinkedIn {
+        width: 30px;
+    }
+    
+    #logoTwitter {
+        width: 30px;
+        margin-left: 5%;
+    }
+    
+    #logoGmail {
+        width: 30px;
+        margin-left: 5%;
     }
 }
 
