@@ -1,3 +1,11 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     display: flex;
 }
@@ -6,55 +14,53 @@ li {
     list-style-type: none;
 }
 
-.sidebar {
-    background-color: yellow;
-    flex-direction: column;
-    display: flex;
-    width: 30%;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5%;
-}
-
-.titre {
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    order: 1;
-}
-
 
 /* Sidebar */
 
+.sidebar {
+    background-color: #FDD835;
+    height: 220%;
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+}
+
 .pp {
     display: flex;
-    width: 40%;
-    margin-left: 25%;
-    margin-top: 5%;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    width: 135px;
+    height: 135px;
+    margin-left: 30%;
+    margin-top: 3%;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10%;
 }
 
 .sidebarTitle {
-    background-color: grey;
-    color: yellow;
+    background-color: #37474F;
+    color: #FDD835;
+    text-align: center;
 }
 
-ul.contact {
-    background-color: turquoise;
-
+.aPropos {
+    margin-top: 10%;
 }
 
 .description {
     margin-left: 15%;
     margin-right: 15%;
+    padding-top: 5%;
+}
+
+.loisirs {
+    margin-top: 105%;
 }
 
 .listeLoisirs {
@@ -62,9 +68,36 @@ ul.contact {
     flex-direction: row;
     justify-content: space-around;
     margin-right: 10%;
+    padding-top: 5%;
+}
+
+#loisirs {
+    color: #37474F;
+    font-size: 200%;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.trait {
+    color: #FDD835;
+    border-top: 2px solid;
+    padding-bottom: 2%;
 }
 
 /* Titre */
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
 
 .titreInfo {
     display: flex;
@@ -75,7 +108,7 @@ ul.contact {
 
 .prenom {
     margin-right: 1%;
-    color: yellow;
+    color: #FDD835;
 }
 
 .metier {
@@ -88,13 +121,12 @@ ul.contact {
 
 .formation {
     display: flex;
-    background-color: greenyellow;
     order: 2;
     flex-direction: column;
 }
 
 i {
-    color: yellow;
+    color: #FDD835;
     margin-right: 3%;
 }
 
@@ -103,36 +135,31 @@ i {
     font-size: 150%;
 }
 
-.openclassrooms {
-    background-color: tomato;
+
+.formBloc {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
-.lycee {
-    background-color: violet;
-    display: flex;
-    flex-direction: row;
-}
-
-.date {
-    margin-right: 20%;
+ul.date {
+    width: 20%;
 }
 
 .informations {
-    padding-right: 20%;
+    width: 55%;
+    margin-left: 5%;
 }
 
 /* Experiences */
 
 
 .experiences {
-    background-color: red;
     order: 3;
 }
 
 i {
-    color: yellow;
+    color: #FDD835;
     margin-right: 3%;
 }
 
@@ -142,13 +169,41 @@ i {
 }
 
 .experience1 {
-    background-color: tomato;
     display: flex;
     flex-direction: row;
 }
 
 .experience2 {
-    background-color: violet;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience8 {
     display: flex;
     flex-direction: row;
 }
@@ -157,7 +212,6 @@ i {
 
 
 .recommandations {
-    background-color: hotpink;
     order: 4;
 }
 
@@ -178,4 +232,77 @@ i {
 
 .recommandation2 {
     margin-left: 20%;
+}
+
+.perso {
+    order: 5;
+}
+
+/* media query test */
+
+@media (min-device-width: 812px) {
+
+    .perso {
+        display: none;
+    }
+}
+
+@media all and (max-device-width: 812px) {
+
+    html {
+        font-size: 80%;
+
+    }
+
+    .titreInfo {
+        font-size: 400%;
+    }
+
+    .metier {
+        font-size: 300%;
+    }
+
+    .mainTitle {
+        font-size: 300%;
+    }
+
+    .reco {
+        font-size: 200%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .perso {
+        background-color: #FDD835;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .pp {
+        display: flex;
+        margin-left: 43%;
+        -webkit-border-radius: 75px;
+        -moz-border-radius: 75px;
+        border-radius: 75px;
+        width: 135px;
+        height: 135px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .listeLoisirs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 10%;
+        font-size: 300%;
+    }
+
 }
