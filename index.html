@@ -1,230 +1,170 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ab85ac7e2e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Cv Tristan Brochard</title>
 </head>
 
 <body>
-    <!-- test de la branche FlexBox -->
-    <!-- second test pour GitLab -->
-    <!-- sidebar -->
-    <div class="float-left col-xs-3 col-sm-3 col-md-3 col-lg-3" id="sidebar">
-        <div class="row">
-            <div id="presentation">
-                <img src="images/pp.jpg" alt="photo de profil" width="50%" id="pp">
-                <div id="coordonees">
-                    <h3>Coordonées</h3>
-                    <p>58, rue Alphonse de Saintonge,<br>
-                        17000, La Rochelle</p>
-                    <a href="https://www.linkedin.com/in/tristan-brochard-9501b531/"><img src="images/Linkedin-icon.png" alt="logo_linkedin" id="logoLinkedIn"></a>
-                    <a href="https://twitter.com/Tristanbrchrd"><img src="images/738px-Twitter_bird_logo_2012.svg.png" alt="logo_twitter" id="logoTwitter"></a>
-                    <a href=mailto:"brochardtristan@gmail.com"><img src="images/Gmail_Icon.png" alt="logo_gmail" id="logoGmail"></a>
-                </div>
-            </div>
+    <!-- SideBar -->
+    <aside class="sidebar">
+        <img src="images/logo.jpg" alt="logo" class="pp">
+        <div class="contact">
+            <h3 class="sidebarTitle">Contact</h3>
+            <ul class="adresse">
+                <li>Adresse</li>
+                <li>Paris, France</li>
+            </ul>
+            <ul class="telephone">
+                <li>Telephone</li>
+                <li>06.00.00.00.00</li>
+            </ul>
+            <ul class="email">
+                <li>email</li>
+                <li>brochardtristan@gmail.com</li>
+            </ul>
+            <ul class="site">
+                <li>Site Web</li>
+                <li>fullak.github.io</li>
+            </ul>
+            <ul class="skype">
+                <li>Skype</li>
+                <li>@user</li>
+            </ul>
         </div>
-        <div class="row">
-            <div id="competences">
-                <h4>
-                    <svg class="bi bi-gear" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 014.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 01-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 011.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 012.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 012.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 011.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 01-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 018.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 001.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 00.52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 00-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 00-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 00-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 00-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 00.52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 001.255-.52l.094-.319z"
-                            clip-rule="evenodd" />
-                        <path fill-rule="evenodd"
-                            d="M8 5.754a2.246 2.246 0 100 4.492 2.246 2.246 0 000-4.492zM4.754 8a3.246 3.246 0 116.492 0 3.246 3.246 0 01-6.492 0z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Compétences</h4>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Intégration de maquettes</li>
-                <li>Git & Github</li>
-            </div>
+        <div class="aPropos">
+            <h3 class="sidebarTitle">A propos de moi</h3>
+            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa vel dolores dolorem
+                accusamus sequi
+                consectetur recusandae? A autem dolorem, cupiditate reprehenderit qui cumque quibusdam, obcaecati
+                tempore eaque, odit animi rerum?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa vel dolores dolorem accusamus sequi
+                consectetur recusandae? A autem dolorem, cupiditate reprehenderit qui cumque quibusdam, obcaecati
+                tempore eaque, odit animi rerum?
+            </p>
         </div>
-        <div class="row">
-            <div id="langues">
-                <h4>
-                    <svg class="bi bi-flag" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M3.5 1a.5.5 0 01.5.5v13a.5.5 0 01-1 0v-13a.5.5 0 01.5-.5z"
-                            clip-rule="evenodd" />
-                        <path fill-rule="evenodd"
-                            d="M3.762 2.558C4.735 1.909 5.348 1.5 6.5 1.5c.653 0 1.139.325 1.495.562l.032.022c.391.26.646.416.973.416.168 0 .356-.042.587-.126a8.89 8.89 0 00.593-.25c.058-.027.117-.053.18-.08.57-.255 1.278-.544 2.14-.544a.5.5 0 01.5.5v6a.5.5 0 01-.5.5c-.638 0-1.18.21-1.734.457l-.159.07c-.22.1-.453.205-.678.287A2.719 2.719 0 019 9.5c-.653 0-1.139-.325-1.495-.562l-.032-.022c-.391-.26-.646-.416-.973-.416-.833 0-1.218.246-2.223.916a.5.5 0 11-.515-.858C4.735 7.909 5.348 7.5 6.5 7.5c.653 0 1.139.325 1.495.562l.032.022c.391.26.646.416.973.416.168 0 .356-.042.587-.126.187-.068.376-.153.593-.25.058-.027.117-.053.18-.08.456-.204 1-.43 1.64-.512V2.543c-.433.074-.83.234-1.234.414l-.159.07c-.22.1-.453.205-.678.287A2.719 2.719 0 019 3.5c-.653 0-1.139-.325-1.495-.562l-.032-.022c-.391-.26-.646-.416-.973-.416-.833 0-1.218.246-2.223.916a.5.5 0 01-.554-.832l.04-.026z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Langues</h4>
-                <li>Français (Native)</li>
-                <li>Anglais (Professionnal)</li>
-            </div>
+        <div class="loisirs">
+            <h3 class="sidebarTitle">Loisirs</h3>
+            <ul class="listeLoisirs">
+                <li class="ps4">Loisir 1</li>
+                <li class="musique">Loisir 2</li>
+                <li class="lire">Loisir 3</li>
+            </ul>
         </div>
-        <div class="row">
-            <div id="formations">
-                <h4>
-                    <svg class="bi bi-award" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"
-                            clip-rule="evenodd" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                    Formations</h4>
-                <li>Parcours Développeur Web</li>
-                <li>Bac Professionnel de Maintenance Industrielle</li>
-                <li>BEP de Maintenance Industrielle</li>
-            </div>
-        </div>
-    </div>
-    </div>
+    </aside>
 
-    <!-- header -->
-    <div class="container" id="header">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
-                <img src="images/pp.jpg" alt="photo de profil" width="50%" id="pp2">
-                <h1>Tristan Brochard</h1>
-                <h2>Développeur Web</h2>
-                <h3>La Rochelle, France</h3>
-            </div>
+    <!-- Main -->
+    <div class="main">
+        <div class="titre">
+            <ul class="titreInfo">
+                <li class="prenom">Tristan</li>
+                <li class="nom">Brochard</li>
+            </ul>
+            <ul class="metier">
+                <li>Developpeur web</li>
+            </ul>
         </div>
-    </div>
 
-    <!-- body -->
-    <!-- jobs -->
+        <div class="formation">
+            <h3 class="mainTitle"><i class="fas fa-graduation-cap"></i>Formations</h3>
 
-    <div class="container" id="emplois">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
-                <h3>Emploi</h3>
-            </div>
-        </div>
-    </div>
+            <!-- Formation 1 -->
 
-    <div class="container">
-        <div class="row" id="ligne">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="balso">
-                    <h4>Balso</h4>
-                    <li>Magasinier</li>
-                    <li>octobre 2018 - mars 2020 (1 an 6 mois)</li>
-                    <li>Rochefort, Nouvelle-Aquitaine, France</li>
-                </div>
+            <div class="openclassrooms">
+                <ul class="date">
+                    <li>Date</li>
+                    <li>Lieu</li>
+                </ul>
+                <ul class="informations">
+                    <li>OPENCLASSROOMS</li>
+                    <li>Junior Web Developer</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa voluptates similique
+                        temporibus
+                        animi facilis sunt id praesentium a voluptatem cumque labore eveniet autem officiis quasi natus
+                        saepe, aliquid minus?</li>
+                </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="servitrans">
-                    <h4>Servi-Trans</h4>
-                    <li>Chauffeur Livreur</li>
-                    <li>avril 2018 - septembre 2018 (6 mois)</li>
-                    <li>La Rochelle, Nouvelle-Aquitaine, France</li>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="marandaise">
-                    <h4>La marandaise</h4>
-                    <li>Employé libre service bazar</li>
-                    <li>juin 2017 - février 2018 (9 mois)</li>
-                    <li>Marans, Poitou-Charentes, France</li>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row" id="ligne2">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="canadian">
-                    <h4>Canadian Steak House</h4>
-                    <li>Cuisinier</li>
-                    <li>janvier 2017 - avril 2017 (4 mois)</li>
-                    <br>
-                    <li>Plongeur</li>
-                    <li>octobre 2016 - janvier 2017 (4 mois)</li>
-                    <li>Région de Rennes, France</li>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="leclerc">
-                    <h4>E.Leclerc</h4>
-                    <li>Employé commercial</li>
-                    <li>décembre 2015 - août 2016 (9 mois)</li>
-                    <li>Vern sur seiche (35)</li>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div id="super">
-                    <h4>Super U</h4>
-                    <li>Employé libre service DPH</li>
-                    <li>juillet 2015 - août 2015 (2 mois)</li>
-                    <li>avril 2014 - septembre 2014 (6 mois)</li>
-                    <li>La Tranche sur Mer (85)</li>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid" id="contactRow">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <h3>Coordonées</h3>
-                <p>58, rue Alphonse de Saintonge,<br>
-                    17000, La Rochelle</p>
-                    <a href="https://www.linkedin.com/in/tristan-brochard-9501b531/"><img src="images/Linkedin-icon.png" alt="logo_linkedin" id="logoLinkedIn"></a>
-                    <a href="https://twitter.com/Tristanbrchrd"><img src="images/738px-Twitter_bird_logo_2012.svg.png" alt="logo_twitter" id="logoTwitter"></a>
-                    <a href=mailto:"brochardtristan@gmail.com"><img src="images/Gmail_Icon.png" alt="logo_gmail" id="logoGmail"></a>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <h4>
-                    <svg class="bi bi-gear" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 014.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 01-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 011.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 012.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 012.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 011.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 01-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 018.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 001.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 00.52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 00-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 00-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 00-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 00-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 00.52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 001.255-.52l.094-.319z"
-                            clip-rule="evenodd" />
-                        <path fill-rule="evenodd"
-                            d="M8 5.754a2.246 2.246 0 100 4.492 2.246 2.246 0 000-4.492zM4.754 8a3.246 3.246 0 116.492 0 3.246 3.246 0 01-6.492 0z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Compétences</h4>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>Intégration de maquettes</li>
-                    <li>SEO</li>
+            <!-- Formation 2 -->
+
+            <div class="lycee">
+                <ul class="date">
+                    <li>Date</li>
+                    <li>Lieu</li>
+                </ul>
+                <ul class="informations">
+                    <li>Lieux</li>
+                    <li>Diplome</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa voluptates similique
+                        temporibus animi facilis sunt id praesentium a voluptatem cumque labore eveniet autem
+                        officiis
+                        quasi natus saepe, aliquid minus?</li>
+                </ul>
             </div>
         </div>
 
-        <div class="row" id="contactRow2">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <h4>
-                    <svg class="bi bi-flag" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M3.5 1a.5.5 0 01.5.5v13a.5.5 0 01-1 0v-13a.5.5 0 01.5-.5z"
-                            clip-rule="evenodd" />
-                        <path fill-rule="evenodd"
-                            d="M3.762 2.558C4.735 1.909 5.348 1.5 6.5 1.5c.653 0 1.139.325 1.495.562l.032.022c.391.26.646.416.973.416.168 0 .356-.042.587-.126a8.89 8.89 0 00.593-.25c.058-.027.117-.053.18-.08.57-.255 1.278-.544 2.14-.544a.5.5 0 01.5.5v6a.5.5 0 01-.5.5c-.638 0-1.18.21-1.734.457l-.159.07c-.22.1-.453.205-.678.287A2.719 2.719 0 019 9.5c-.653 0-1.139-.325-1.495-.562l-.032-.022c-.391-.26-.646-.416-.973-.416-.833 0-1.218.246-2.223.916a.5.5 0 11-.515-.858C4.735 7.909 5.348 7.5 6.5 7.5c.653 0 1.139.325 1.495.562l.032.022c.391.26.646.416.973.416.168 0 .356-.042.587-.126.187-.068.376-.153.593-.25.058-.027.117-.053.18-.08.456-.204 1-.43 1.64-.512V2.543c-.433.074-.83.234-1.234.414l-.159.07c-.22.1-.453.205-.678.287A2.719 2.719 0 019 3.5c-.653 0-1.139-.325-1.495-.562l-.032-.022c-.391-.26-.646-.416-.973-.416-.833 0-1.218.246-2.223.916a.5.5 0 01-.554-.832l.04-.026z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Langues</h4>
-                <li>Français (Native)</li>
-                <li>Anglais (Professionnal)</li>
+        <div class="experiences">
+            <h3 class="mainTitle"><i class="fas fa-briefcase"></i>Expériences</h3>
+
+            <!-- Experience 1 -->
+
+            <div class="experience1">
+                <ul class="date">
+                    <li>Date</li>
+                    <li>Lieu</li>
+                </ul>
+                <ul class="informations">
+                    <li>Emploi</li>
+                    <li>Junior Web Developer</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa voluptates similique
+                        temporibus
+                        animi facilis sunt id praesentium a voluptatem cumque labore eveniet autem officiis quasi natus
+                        saepe, aliquid minus?</li>
+                </ul>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <h4>
-                    <svg class="bi bi-award" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"
-                            clip-rule="evenodd" />
-                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-                    </svg>
-                    Formations</h4>
-                <li>Parcours Développeur Web</li>
-                <li>Bac Professionnel de Maintenance Industrielle</li>
-                <li>BEP de Maintenance Industrielle</li>
+
+            <!-- Experience 2 -->
+
+            <div class="experience2">
+                <ul class="date">
+                    <li>Date</li>
+                    <li>Lieu</li>
+                </ul>
+                <ul class="informations">
+                    <li>Lieux</li>
+                    <li>Diplome</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa voluptates similique
+                        temporibus
+                        animi facilis sunt id praesentium a voluptatem cumque labore eveniet autem officiis quasi natus
+                        saepe, aliquid minus?</li>
+                </ul>
             </div>
         </div>
+
+        <div class="recommandations">
+            <h3 class="mainTitle"><i class="fas fa-pencil-alt"></i>Recommandations</h3>
+            <div class="reco">
+                <div class="recommandation1">
+                    <ul class="recommandationListe1">
+                        <li>Nom / Prenom</li>
+                        <li>Fonction</li>
+                        <li>Tel</li>
+                        <li>email</li>
+                    </ul>
+                </div>
+
+                <div class="recommandation2">
+                    <ul class="recommandationListe2">
+                        <li>Nom / Prenom</li>
+                        <li>Fonction</li>
+                        <li>Tel</li>
+                        <li>email</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 </body>
 

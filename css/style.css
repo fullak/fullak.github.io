@@ -1,174 +1,181 @@
+body {
+    display: flex;
+}
+
 li {
     list-style-type: none;
 }
 
-a {
-    color: ivory;
+.sidebar {
+    background-color: yellow;
+    flex-direction: column;
+    display: flex;
+    width: 30%;
 }
 
-/* sideBar */
-
-#sidebar {
-    background-color: #E7E3DD;
-    color: black;
-    height: 100%;
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
 }
 
-#pp {
-    margin-left: 35%;
-    overflow: hidden;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    width: 90px;
-    height: 90px;
+.titre {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    order: 1;
 }
 
-#presentation {
-    margin-left: 15%;
-    margin-top: 5%;
-}
 
-#coordonees {
-    margin-top: 5%;
-    text-align: center;
-    margin-left: 10%;
-}
+/* Sidebar */
 
-#competences {
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 22%;
-}
-
-#langues {
-    text-align: center;
-    margin-top: 5%;
+.pp {
+    display: flex;
+    width: 40%;
     margin-left: 25%;
-}
-
-#formations {
-    text-align: center;
     margin-top: 5%;
-    margin-left: 5%;
 }
 
-#logoLinkedIn {
-    width: 30px;
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#logoTwitter {
-    width: 30px;
-    margin-left: 5%;
+.sidebarTitle {
+    background-color: grey;
+    color: yellow;
 }
 
-#logoGmail {
-    width: 30px;
-    margin-left: 5%;
+ul.contact {
+    background-color: turquoise;
+
 }
 
-/* corps */
+.description {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
-#emplois {
-    margin-top: 2%;
+.listeLoisirs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+
+/* Titre */
+
+.titreInfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 300%;
+    margin-bottom: -3%;
+}
+
+.prenom {
+    margin-right: 1%;
+    color: yellow;
+}
+
+.metier {
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+/* formation */
+
+
+.formation {
+    display: flex;
+    background-color: greenyellow;
+    order: 2;
+    flex-direction: column;
+}
+
+i {
+    color: yellow;
+    margin-right: 3%;
+}
+
+.mainTitle {
+    margin-left: 4%;
+    font-size: 150%;
+}
+
+.openclassrooms {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+.lycee {
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    margin-right: 20%;
+}
+
+.informations {
+    padding-right: 20%;
+}
+
+/* Experiences */
+
+
+.experiences {
+    background-color: red;
+    order: 3;
+}
+
+i {
+    color: yellow;
+    margin-right: 3%;
+}
+
+.mainTitle {
+    margin-left: 4%;
+    font-size: 150%;
+}
+
+.experience1 {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience2 {
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+}
+
+/* recommandations */
+
+
+.recommandations {
+    background-color: hotpink;
+    order: 4;
+}
+
+.reco {
+    display: flex;
+    flex-direction: row;
+}
+
+.recommandationListe1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommandationListe2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommandation2 {
     margin-left: 20%;
-}
-
-#ligne {
-    margin-top: 2%;
-}
-
-#ligne2 {
-    margin-top: 5%;
-}
-
-@media all and (max-device-width: 480px) {
-    html {
-        font-size: 170%;
-    }
-    #sidebar {
-        display: none;
-    }
-
-    #header {
-        text-align: center;
-    }
-
-    #pp2 {
-        margin-right: 30%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 35%;
-        overflow: hidden;
-        -webkit-border-radius: 100px;
-        -moz-border-radius: 100px;
-        border-radius: 100px;
-        width: 180px;
-        height: 180px;
-    }
-
-    #ligne {
-        text-align: center;
-    }
-
-    #ligne2 {
-        text-align: center;
-    }
-
-    #servitrans {
-        margin-top: 5%;
-    }
-
-    #marandaise {
-        margin-top: 5%;
-    }
-
-    #leclerc {
-        margin-top: 5%;
-    }
-
-    #super {
-        margin-top: 5%;
-    }
-
-    a {
-        color: white;
-    }
-
-    #contactRow {
-        text-align: center;
-        margin-top: 5%;
-        padding-top: 2%;
-        background-color: #E7E3DD;
-        color: black;
-    }
-
-    #contactRow2 {
-        margin-top: 5%;
-        padding-bottom: 2%;
-    }
-
-    #logoLinkedIn {
-        width: 30px;
-    }
-    
-    #logoTwitter {
-        width: 30px;
-        margin-left: 5%;
-    }
-    
-    #logoGmail {
-        width: 30px;
-        margin-left: 5%;
-    }
-}
-
-@media all and (min-device-width: 480px) {
-    #contactRow {
-        display: none;
-    }
-
-    #pp2 {
-        display: none;
-    }
 }
