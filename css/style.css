@@ -155,6 +155,8 @@ ul.date {
 
 
 .experiences {
+    display: flex;
+    flex-direction: column;
     order: 3;
 }
 
