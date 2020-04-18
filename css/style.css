@@ -255,14 +255,17 @@ i {
     }
 
     .titreInfo {
+        width: 100%;
         font-size: 400%;
     }
 
     .metier {
+        width: 100%;
         font-size: 300%;
     }
 
     .mainTitle {
+        width: 100%;
         font-size: 300%;
     }
 
