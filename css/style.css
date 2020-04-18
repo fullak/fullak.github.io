@@ -118,7 +118,7 @@ article {
 /* formation */
 
 
-.formation {
+div.formation {
     display: flex;
     order: 2;
     flex-direction: column;
@@ -222,10 +222,14 @@ i {
         display: flex;
     }
 
+    section {
+        width: 100%;
+    }
+
     .titreInfo {
         width: 100%;
         height: 100%;
-        font-size: 300%;
+        font-size: 200%;
     }
 
     .metier {
@@ -233,13 +237,53 @@ i {
         font-size: 150%;
     }
 
+    .formation {
+        width: 90%;
+    }
+
     .mainTitle {
         width: 100%;
-        font-size: 150%;
+        font-size: 120%;
+        margin-left: 10%;
+    }
+
+    .fas {
+        font-size: 90%;
+    }
+
+    section.formation {
+        font-size: 90%;
+        margin-left: -5%;
+    }
+
+    ul.periode {
+        margin-right: 2%;
+    }
+
+    ul.details {
+        width: 90%;
+    }
+
+    ul.informations {
+        margin-left: 20%;
+    }
+
+    section.xp {
+        margin-left: -5%;
+    }
+
+    ul.date {
+        width: 50%;
+    }
+
+    ul.informations {
+        width: 40%;
+        margin-left: -5%;
     }
 
     .reco {
-        font-size: 100%;
+        font-size: 85%;
+        margin-left: -10%;
     }
 
     .sidebar {
@@ -248,7 +292,7 @@ i {
 
     .perso {
         background-color: #FDD835;
-        width: 110%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         order: 5;
