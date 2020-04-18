@@ -249,7 +249,7 @@ i {
     }
 }
 
-@media all and (max-device-width: 812px) {
+@media all and (max-device-width: 850px) {
 
     html {
         width: 100%;
@@ -280,7 +280,7 @@ i {
     }
 
     .perso {
-        background-color: greenyellow;
+        background-color: #FDD835;
         display: flex;
         flex-direction: column;
         order: 5;
