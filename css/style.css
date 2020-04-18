@@ -242,14 +242,14 @@ i {
 
 /* media query test */
 
-@media (min-device-width: 812px) {
+@media (min-device-width: 900px) {
 
     .perso {
         display: none;
     }
 }
 
-@media all and (max-device-width: 850px) {
+@media (max-device-width: 900px) {
 
     html {
         width: 90%;
