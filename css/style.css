@@ -201,7 +201,7 @@ i {
 
 /* media query test */
 
-@media (min-device-width: 900px) {
+@media (min-width: 900px) {
 
     .perso {
         display: none;
