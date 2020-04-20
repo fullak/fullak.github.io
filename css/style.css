@@ -1,4 +1,4 @@
-div,
+/*div,
 aside,
 body,
 section,
@@ -7,7 +7,7 @@ li,
 span,
 p {
     border: solid fuchsia 1px;
-}
+}*/
 
 html,
 body {
@@ -116,6 +116,12 @@ ul.contact,
     margin-top: 1rem;
 }
 
+ul.listeDetails {
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+}
+
 .dates,
 .details{
     display: flex;
@@ -170,4 +176,10 @@ h2 {
 
 .recommandations {
     order: 4;
+}
+
+.reco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
