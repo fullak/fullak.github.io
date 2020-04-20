@@ -167,7 +167,9 @@ h2 {
 .stage {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 .fonctions {
@@ -182,5 +184,9 @@ h2 {
 .reco {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.recommandation1 {
+    margin-right: 9rem;
 }
