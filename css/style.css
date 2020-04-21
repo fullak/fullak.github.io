@@ -201,6 +201,12 @@ h4 {
         font-size: 2rem;
     }
 
+    .icons,
+    .iconsSidebar,
+    .photoProfil {
+        zoom: 150%;
+    }
+
     .prenom,
     .nom {
         font-size : 5rem;
