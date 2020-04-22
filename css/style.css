@@ -25,9 +25,10 @@ li {
 }
 
 .mainSite {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 0 auto;
+    max-width: 1000px;
     display: flex;
+    font-size: 15px;
 }
 
 .sidebar {
@@ -201,9 +202,7 @@ h4 {
         zoom: 50%;
     }
 
-    body {
-        font-size: 2rem;
-    }
+
 
     .icons,
     .iconsSidebar,
@@ -279,5 +278,4 @@ h4 {
         margin: 0;
         font-size: 20px;
     }
-
 }
