@@ -226,7 +226,8 @@ h4 {
         font-size: 35px;
     }
 
-    .titre {
+    .titre,
+    p {
         text-align: center;
     }
 
