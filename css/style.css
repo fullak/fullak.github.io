@@ -188,13 +188,7 @@ h4 {
 
 @media screen and (max-device-width: 896px) {
 
-    html {
-        zoom: 50%;
-    }
 
-    .mainSite {
-        zoom: 150%;
-    }
 
     .sidebar {
         display: none;
@@ -205,14 +199,29 @@ h4 {
         order: 2;
         background-color: #FDD835;
         flex-direction: column;
-        width: 90%;
         margin: 2rem;
         padding-top: 1rem;
         text-align: center;
+        zoom: 150%;
+    }
+
+    .formation,
+    .experiences,
+    .dates,
+    .reco,
+    h3,
+    h4,
+    li,
+    p {
+        font-size: 120%;
     }
 
     .dates {
-        padding-right: 100px;
+        padding-right: 120px;
+    }
+
+    .fonctions {
+        width: 300px;
     }
 
     .iconDot,
