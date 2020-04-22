@@ -118,6 +118,7 @@ ul.listeDetails {
 }
 
 .dates,
+.datesEmplois,
 .details {
     display: flex;
     flex-direction: column;
@@ -201,24 +202,28 @@ h4 {
         order: 2;
         background-color: #FDD835;
         flex-direction: column;
-        margin: 2rem;
         padding-top: 1rem;
         text-align: center;
-        zoom: 130%;
+        zoom: 110%;
     }
 
     .formation,
     .experiences,
-    .dates,
-    .prenom,
-    .nom,
-    .monMetier,
     .iconsSidebar,
+    .detailsTitle,
+    .detailsListe,
     h3,
-    h4,
-    li,
-    p {
-        font-size: 110%;
+    h4 {
+        font-size: 100%;
+    }
+
+    .nom,
+    .prenom {
+        font-size: 50px;
+    }
+
+    .monMetier {
+        font-size: 35px;
     }
 
     .titre {
@@ -226,18 +231,25 @@ h4 {
     }
 
     .dates {
-        padding-right: 40px;
-        width: 200px;
+        width: 150px;
+        font-size: 100%;
+        padding-right: 30px;
     }
 
-    .details {
-        width: 350px;
-     /*   text-align: center;*/
+    .datesEmplois {
+        width: 250px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .bacPro {
+        padding-top: 20px;
     }
 
     .fonctions {
-        width: 300px;
         text-align: center;
+        width: 200px;
+        padding-top: 10px;
     }
 
     .trait {
@@ -245,15 +257,18 @@ h4 {
         margin-top: 25px;
     }
 
-    .recommandationListe1,
-    .recommandationListe2 {
-        width: 160px;
+    .iconsSidebar {
+        font-size: 45px;
+    }
+
+    .recommandation1,
+    .recommandation2 {
         padding: 0;
         margin: 0;
     }
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (min-device-width: 420px) and (max-device-width: 1024px) {
 
     .main {
         width: 100%;
