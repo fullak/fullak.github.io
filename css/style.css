@@ -192,9 +192,7 @@ h4 {
     }
 
     .mainSite {
-        padding: 0;
-        margin: 0 auto;
-        font-size: 20px;
+        zoom: 150%;
     }
 
     .sidebar {
