@@ -20,9 +20,13 @@ li {
     margin-bottom: 1rem;
 }
 
+.sidebarMobile {
+    display: none;
+}
+
 .mainSite {
-    padding-right: 20%;
-    padding-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     display: flex;
 }
 
@@ -79,7 +83,7 @@ ul.contact,
 }
 
 .titreInfo {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .prenom {
@@ -87,7 +91,7 @@ ul.contact,
 }
 
 .metier {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .icons {
@@ -191,7 +195,7 @@ h4 {
     margin-right: 9rem;
 }
 
-@media all and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
     html {
         zoom: 50%;
@@ -264,6 +268,16 @@ h4 {
 
     .recommandations {
         order: 5;
+    }
+
+}
+
+@media screen and (max-device-width: 1200px){
+
+    .mainSite {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
     }
 
 }
