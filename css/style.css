@@ -253,6 +253,45 @@ h4 {
     }
 }
 
+@media screen and (max-device-width: 1024px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .mainSite {
+        padding: 0;
+        margin: 0 auto;
+        font-size: 20px;
+
+    }
+
+    .formation,
+    .sidebar,
+    .experiences,
+    .dates,
+    .prenom,
+    .nom,
+    .monMetier,
+    .iconsSidebar,
+    h3,
+    h4,
+    li,
+    p {
+        font-size: 110%;
+    }
+
+    .dates {
+        width: 200px;
+        padding-right: 50px;
+    }
+
+    .fonctions,
+    .details {
+        width: 250px;
+    }
+}
+
 @media screen and (max-device-width: 1200px){
 
     html {
