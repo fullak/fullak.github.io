@@ -227,15 +227,17 @@ h4 {
 
     .dates {
         padding-right: 40px;
-        width: 180px;
+        width: 200px;
     }
 
     .details {
-        width: 300px;
+        width: 350px;
+     /*   text-align: center;*/
     }
 
     .fonctions {
         width: 300px;
+        text-align: center;
     }
 
     .trait {
