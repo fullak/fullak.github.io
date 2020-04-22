@@ -209,6 +209,9 @@ h4 {
     .experiences,
     .dates,
     .reco,
+    .prenom,
+    .nom,
+    .monMetier,
     h3,
     h4,
     li,
@@ -216,8 +219,12 @@ h4 {
         font-size: 120%;
     }
 
+    .titre {
+        text-align: center;
+    }
+
     .dates {
-        padding-right: 120px;
+        padding-right: 60px;
     }
 
     .fonctions {
