@@ -240,13 +240,6 @@ h4 {
 
 @media screen and (max-device-width: 480px) {
 
-    div,
-    span,
-    p,
-    li {
-        border: solid fuchsia 1px;
-    }
-
     .main {
         max-width: 100%;
         font-size: 80%;
