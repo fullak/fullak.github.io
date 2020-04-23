@@ -193,7 +193,49 @@ h4 {
     margin-right: 9rem;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 1024px) {
+
+    .main {
+        max-width: 100%;
+    }
+
+    .mainSite {
+        padding: 0;
+        margin: 0 auto;
+        font-size: 20px;
+
+    }
+
+    .formation,
+    .sidebar,
+    .experiences,
+    .dates,
+    .prenom,
+    .nom,
+    .monMetier,
+    .iconsSidebar,
+    h3,
+    h4,
+    li,
+    p {
+        font-size: 100%;
+    }
+
+    .fonctions,
+    .details {
+        width: 250px;
+    }
+
+    .iconsSidebar {
+        font-size: 50px;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
 
     .main {
         max-width: 100%;
@@ -279,44 +321,4 @@ h4 {
     }
 }
 
-@media screen and (min-device-width: 480px) and (max-device-width: 1024px) {
 
-    .main {
-        max-width: 100%;
-    }
-
-    .mainSite {
-        padding: 0;
-        margin: 0 auto;
-        font-size: 20px;
-
-    }
-
-    .formation,
-    .sidebar,
-    .experiences,
-    .dates,
-    .prenom,
-    .nom,
-    .monMetier,
-    .iconsSidebar,
-    h3,
-    h4,
-    li,
-    p {
-        font-size: 100%;
-    }
-
-    .fonctions,
-    .details {
-        width: 250px;
-    }
-
-    .iconsSidebar {
-        font-size: 50px;
-    }
-
-    .icons {
-        font-size: 30px;
-    }
-}
