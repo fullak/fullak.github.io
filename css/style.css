@@ -240,8 +240,16 @@ h4 {
 
 @media screen and (max-device-width: 480px) {
 
+    div,
+    span,
+    p,
+    li {
+        border: solid fuchsia 1px;
+    }
+
     .main {
         max-width: 100%;
+        font-size: 80%;
     }
 
     .sidebar {
@@ -255,7 +263,6 @@ h4 {
         flex-direction: column;
         padding-top: 1rem;
         text-align: center;
-        zoom: 110%;
     }
 
     .traitMetier {
@@ -263,7 +270,34 @@ h4 {
         margin-bottom: 20px;
     }
 
-    .formation,
+    .formation {
+        max-width: 100%;
+    }
+
+    .descriptionFormation {
+        width: 100%;
+    }
+
+    .datesFormation {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+    }
+
+    .detailsFormation {
+        width: 100%;
+    }
+
+    .listeFormation {
+        padding: 0;
+    }
+/*
+    .detailsFormation {
+        width: auto;
+    }*/
+
+
     .experiences,
     .iconsSidebar,
     .detailsTitle,
