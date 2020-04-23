@@ -251,6 +251,17 @@ h4 {
     margin-right: 50px;
 }
 
+footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    order: 5;
+    border-top: solid #FDD835 1px;
+    font-size: 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 
 
 @media screen and (max-device-width: 1024px) {
