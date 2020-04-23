@@ -40,7 +40,9 @@ li {
 .iconGear,
 .iconJS,
 .iconNodeJS {
+    width: 20px;
     margin-right: 10%;
+    font-size: 20px;
 }
 
 .sidebarMobile {
