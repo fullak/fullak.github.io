@@ -10,6 +10,39 @@ li {
     margin-bottom: 1rem;
 }
 
+.iconHTML {
+    color: orange;
+}
+
+.iconCSS {
+    color: dodgerblue;
+}
+
+.iconGit {
+    color: orange;
+}
+
+.iconGear {
+    color: grey;
+}
+
+.iconJS {
+    color: #FDD835;
+}
+
+.iconNodeJS {
+    color: green;
+}
+
+.iconHTML,
+.iconCSS,
+.iconGit,
+.iconGear,
+.iconJS,
+.iconNodeJS {
+    margin-right: 10%;
+}
+
 .sidebarMobile {
     display: none;
 }
