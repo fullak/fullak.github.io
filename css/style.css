@@ -186,14 +186,17 @@ h4 {
 .reco {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
 }
 
-.recommandation1 {
-    margin-right: 9rem;
+.recommandation1,
+.recommandation2 {
+    font-size: 100%;
+    margin-right: 50px;
 }
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-device-width: 1024px) {
 
     .main {
         max-width: 100%;
@@ -235,7 +238,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
     .main {
         max-width: 100%;
@@ -316,8 +319,19 @@ h4 {
 
     .recommandation1,
     .recommandation2 {
-        padding: 0;
-        margin: 0;
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .recommandationListe1,
+    .recommandationListe2 {
+        padding-bottom: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reco {
+        flex-wrap: wrap;
     }
 }
 
