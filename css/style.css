@@ -2,6 +2,7 @@ html,
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -73,7 +74,7 @@ ul.contact,
 }
 
 .titreInfo {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .prenom {
@@ -81,7 +82,12 @@ ul.contact,
 }
 
 .metier {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.traitMetier {
+    border-bottom: solid #FDD835 2px;
+    width: 70px;
 }
 
 .icons {
@@ -187,7 +193,7 @@ h4 {
     margin-right: 9rem;
 }
 
-@media screen and (max-device-width: 420px) {
+@media screen and (max-device-width: 480px) {
 
     .main {
         max-width: 100%;
@@ -207,6 +213,10 @@ h4 {
         zoom: 110%;
     }
 
+    .traitMetier {
+        width: 85px;
+    }
+
     .formation,
     .experiences,
     .iconsSidebar,
@@ -219,15 +229,11 @@ h4 {
 
     .nom,
     .prenom {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .monMetier {
-        font-size: 35px;
-    }
-
-    .titre {
-        text-align: center;
+        font-size: 30px;
     }
 
     .dates {
@@ -268,10 +274,10 @@ h4 {
     }
 }
 
-@media screen and (min-device-width: 420px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 480px) and (max-device-width: 1024px) {
 
     .main {
-        width: 100%;
+        max-width: 100%;
     }
 
     .mainSite {
@@ -293,33 +299,19 @@ h4 {
     h4,
     li,
     p {
-        font-size: 110%;
-    }
-
-    .dates {
-        width: 200px;
-        padding-right: 50px;
+        font-size: 100%;
     }
 
     .fonctions,
     .details {
         width: 250px;
     }
-}
 
-@media screen and (max-device-width: 1200px){
-
-    html {
-        zoom: 70%;
-    }
-    .mainSite {
-        padding: 0;
-        margin: 0 auto;
-        font-size: 20px;
-        zoom: 120%;
+    .iconsSidebar {
+        font-size: 50px;
     }
 
-    .sidebar {
-        width: 100%;
+    .icons {
+        font-size: 30px;
     }
 }
