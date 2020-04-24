@@ -1,17 +1,13 @@
-/* div,
-span,
-p,
-ul,
-li {
-    border: solid fuchsia 1px;
-}*/
-
-
 body {
     padding: 0;
     margin: 0;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    background-image: url("../images/back.jpg");
+}
+
+p {
+    text-align: justify;
 }
 
 li {
@@ -86,7 +82,6 @@ h4 {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    font-size: 15px;
     background-color: white;
     box-sizing: border-box;
     box-shadow: 6px -6px 8px black;
@@ -144,6 +139,7 @@ ul.contact,
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 2rem;
 }
 
 .titre {
@@ -152,18 +148,25 @@ ul.contact,
     width: 90%;
 }
 
-.formation {
+.sidebarMobile {
     order: 2;
-    width: 90%;
+    background-color: #343434;
+    color: white;
+    width: 100%;
 }
 
-.experiences {
+.formation {
     order: 3;
     width: 90%;
 }
 
-.recommandations {
+.experiences {
     order: 4;
+    width: 90%;
+}
+
+.recommandations {
+    order: 5;
     width: 90%;
 }
 
@@ -296,145 +299,63 @@ footer {
     font-size: 10px;
     margin-right: 2rem;
     margin-left: 2rem;
+    padding-top: 1rem;
     width: 90%;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
 
-@media (min-width: 481px) and (max-width: 767px) {
-
-    .main {
-        max-width: 100%;
-    }
-
-    .mainSite {
+    .listeFormation {
         padding: 0;
-        margin: 0 auto;
-        font-size: 20px;
-
-    }
-
-    .devWeb,
-    .bacPro {
-        justify-content: center;
-    }
-
-    .datesFormation {
-        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .sidebar {
-        width: 100%;
+        zoom: 0.8;
     }
 
-    .formation,
-    .sidebar,
-    .experiences,
-    .dates,
-    .prenom,
-    .nom,
-    .monMetier,
-    .iconsSidebar,
-    h3,
-    h4,
-    li,
-    p {
-        font-size: 100%;
-    }
-
-    .fonctions,
-    .details {
-        width: 250px;
-    }
-
-    .iconsSidebar {
-        font-size: 30px;
-    }
-
-    .icons {
-        font-size: 30px;
-    }
 }
 
-@media (max-width: 480px) {
-
-    .main {
-        max-width: 100%;
-        font-size: 80%;
-    }
+@media (max-width: 767px) {
 
     .sidebar {
         display: none;
     }
 
-    .sidebarMobile {
+    .listeFormation {
+        padding: 0;
         display: flex;
-        order: 2;
-        background-color: #FDD835;
         flex-direction: column;
-        padding-top: 1rem;
-        text-align: center;
     }
 
-    .devWeb,
-    .bacPro {
-        justify-content: center;
+    .main {
+        padding: 0;
     }
-
-    .datesFormation {
-        margin-bottom: 1rem;
-    }
-
-    .datesFormation,
-    .detailsFormationTitle,
-    .detailsFormation {
-        text-align: center;
-    }
-
-    .traitMetier {
-        width: 55px;
-        margin-bottom: 20px;
+    .sidebarMobile {
+        display: initial;
+        padding: 0;
+        margin: 0;
     }
 
     .nom,
     .prenom {
-        font-size: 30px;
-    }
-
-    .photoProfil {
-        margin-bottom: 20px;
-    }
-
-    .monMetier {
-        font-size: 20px;
-    }
-
-    .trait {
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-
-    .iconsSidebar {
-        font-size: 30px;
-    }
-
-    .fonctions {
         text-align: center;
     }
 
-    .recommandation1,
-    .recommandation2 {
-        font-size: 100%;
-        width: 100%;
-    }
-
-    .recommandationListe1,
-    .recommandationListe2 {
-        padding-bottom: 10px;
-        justify-content: center;
+    .titre {
         text-align: center;
     }
 
-    .reco {
-        flex-wrap: wrap;
+    .contact {
+        text-align: center;
+    }
+
+    .traitMetier {
+        display: none;
+    }
+
+    .description {
+        margin: 1rem;
     }
 }
 
