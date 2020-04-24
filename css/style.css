@@ -1,190 +1,22 @@
+/* div,
+span,
+p,
+ul,
+li {
+    border: solid fuchsia 1px;
+}*/
+
 html,
 body {
     padding: 0;
     margin: 0;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 li {
     list-style-type: none;
     margin-bottom: 1rem;
-}
-
-.iconHTML {
-    color: orange;
-}
-
-.iconCSS {
-    color: dodgerblue;
-}
-
-.iconGit {
-    color: orange;
-}
-
-.iconGear {
-    color: grey;
-}
-
-.iconJS {
-    color: #FDD835;
-}
-
-.iconNodeJS {
-    color: green;
-}
-
-.iconHTML,
-.iconCSS,
-.iconGit,
-.iconGear,
-.iconJS,
-.iconNodeJS {
-    width: 20px;
-    margin-right: 10%;
-    font-size: 20px;
-}
-
-.sidebarMobile {
-    display: none;
-}
-
-.mainSite {
-    margin: 0 auto;
-    max-width: 1000px;
-    display: flex;
-    font-size: 15px;
-}
-
-.sidebar {
-    background-color: #FDD835;
-    width: 15rem;
-}
-
-.photoProfile,
-ul.contact,
-.description,
-.listeLoisirs {
-    padding: 1rem;
-}
-
-.photoProfil {
-    border-radius: 75px;
-    width: 135px;
-    height: 135px;
-}
-
-.photoProfile {
-    display: flex;
-    justify-content: center;
-}
-
-.sidebarTitle {
-    background-color: #37474F;
-    color: #FDD835;
-    text-align: center;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-
-.listeLoisirs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.iconsSidebar {
-    color: #37474F;
-    font-size: 2rem;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.titre {
-    order: 1;
-    padding: 2rem;
-}
-
-.titreInfo {
-    font-size: 3rem;
-}
-
-.prenom {
-    color: #FDD835;
-}
-
-.formation {
-    order: 2;
-}
-
-.formation {
-    max-width: 100%;
-}
-
-.descriptionFormation {
-    width: 100%;
-}
-
-.datesFormation {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-}
-
-.detailsFormation {
-    width: 100%;
-}
-
-.listeFormation {
-    padding: 0;
-}
-
-.metier {
-    font-size: 1.5rem;
-}
-
-.traitMetier {
-    border-bottom: solid #FDD835 2px;
-    width: 70px;
-}
-
-.icons {
-    color: #FDD835;
-    margin-right: 1rem;
-}
-
-.trait {
-    border: solid #FDD835 1px;
-    margin-top: 15px;
-}
-
-.formation,
-.experiences,
-.recommandations {
-    padding: 2rem;
-}
-
-.listeExperiences,
-.detailsformations {
-    padding: 1rem;
-}
-
-.devWeb,
-.bacPro {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-}
-
-
-.datesEmplois,
-.listeExperiences {
-    display: flex;
-    flex-direction: column;
 }
 
 h3 {
@@ -201,13 +33,209 @@ h4 {
 }
 
 .iconDot {
-    color: #FDD835;
+    color: #FF5722;
     margin-right: 1rem;
     font-size: 10px;
 }
 
+.iconHTML,
+.iconGit{
+    color: orange;
+}
+
+.iconCSS,
+.iconGear {
+    color: dodgerblue;
+}
+
+.iconJS {
+    color: #FDD835;
+}
+
+.iconNodeJS {
+    color: green;
+}
+
+.iconHTML,
+.iconCSS,
+.iconGit,
+.iconGear,
+.iconJS,
+.iconNodeJS {
+    width: 2rem;
+    font-size: 20px;
+}
+
+.icons {
+    color: #FF5722;
+    margin-right: 1rem;
+}
+
+.trait {
+    border: solid #FF5722 2px;
+    margin-top: 15px;
+}
+
+.sidebarMobile {
+    display: none;
+}
+
+.mainSite {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    font-size: 15px;
+    background-color: white;
+}
+
+/* sideBar */
+
+.sidebar {
+    background-color: #343434;
+    width: 25%;
+    zoom: 1.25;
+    color: white;
+}
+
+.photoProfile,
+ul.contact,
+.description,
+.listeLoisirs {
+    padding: 1rem;
+}
+
+.photoProfil {
+    border-radius: 75px;
+    width: 135px;
+    height: 135px;
+    border: white solid 2px;
+}
+
+.photoProfile {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebarTitle {
+    background-color: white;
+    color: #343434;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.listeLoisirs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconsSidebar {
+    color: white;
+    font-size: 2rem;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    zoom: 1.25;
+}
+
+.titre {
+    order: 1;
+    padding: 2rem;
+}
+
+.formation {
+    order: 2;
+    width: 80%;
+}
+
 .experiences {
     order: 3;
+    width: 80%;
+}
+
+.recommandations {
+    order: 4;
+    width: 80%;
+}
+
+/* titre */
+.titre {
+    width: 80%;
+}
+
+.titreInfo {
+    font-size: 3rem;
+}
+
+.prenom {
+    color: #FF5722;
+}
+
+/* formation */
+
+.descriptionFormation,
+.detailsFormation{
+    width: 50%;
+}
+
+.datesFormation {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    zoom: 0.75;
+}
+
+.listeFormation {
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.devWeb,
+.bacPro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+/* experiences */
+
+.metier {
+    font-size: 1.5rem;
+}
+
+.traitMetier {
+    border-bottom: solid #FF5722 2px;
+    width: 70px;
+}
+
+.formation,
+.experiences,
+.recommandations {
+    padding: 2rem;
+}
+
+.listeExperiences,
+.detailsformations {
+    padding: 1rem;
+}
+
+.datesEmplois,
+.listeExperiences {
+    display: flex;
+    flex-direction: column;
 }
 
 .balso,
@@ -223,48 +251,57 @@ h4 {
     padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
-.listeExperiences {
-    width: 100%;
+.fonctions {
+    width: 50%;
 }
 
 .datesEmplois {
-    width: 50%;
-    margin-right: 5%;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-right: 3rem;
     flex-direction: column;
+    zoom: 0.75;
 }
 
-.recommandations {
-    order: 4;
-}
+/* recommandations */
 
 .reco {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .recommandation1,
 .recommandation2 {
     font-size: 100%;
-    margin-right: 50px;
+    width: 15rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
 }
+
+.recommandationListe1,
+.recommandationListe2 {
+    margin: 0;
+    padding: 0;
+}
+
+/*  footer */
 
 footer {
     color: black;
     display: flex;
     justify-content: center;
     order: 5;
-    border-top: solid #FDD835 1px;
+    border-top: solid #FF5722 2px;
     font-size: 10px;
     margin-right: 2rem;
     margin-left: 2rem;
+    width: 80%;
 }
 
-
-
-@media screen and (max-device-width: 1024px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
     .main {
         max-width: 100%;
@@ -275,6 +312,15 @@ footer {
         margin: 0 auto;
         font-size: 20px;
 
+    }
+
+    .devWeb,
+    .bacPro {
+        justify-content: center;
+    }
+
+    .datesFormation {
+        margin-bottom: 1rem;
     }
 
     .sidebar {
@@ -310,7 +356,7 @@ footer {
     }
 }
 
-@media screen and (max-device-width: 480px) {
+@media (max-width: 480px) {
 
     .main {
         max-width: 100%;
@@ -327,6 +373,21 @@ footer {
         background-color: #FDD835;
         flex-direction: column;
         padding-top: 1rem;
+        text-align: center;
+    }
+
+    .devWeb,
+    .bacPro {
+        justify-content: center;
+    }
+
+    .datesFormation {
+        margin-bottom: 1rem;
+    }
+
+    .datesFormation,
+    .detailsFormationTitle,
+    .detailsFormation {
         text-align: center;
     }
 
