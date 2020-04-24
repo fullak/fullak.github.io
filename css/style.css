@@ -208,7 +208,6 @@ ul.contact,
 .bacPro {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 2rem;
 }
 
@@ -316,7 +315,7 @@ footer {
 
 }
 
-@media (max-width: 767px) {
+@media (min-width: 457px) and (max-width: 767px) {
 
     .sidebar {
         display: none;
@@ -359,4 +358,107 @@ footer {
     }
 }
 
+@media (max-width: 456px) {
 
+    .sidebar {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .listeFormation {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        padding: 0;
+    }
+    .sidebarMobile {
+        display: initial;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nom,
+    .prenom {
+        text-align: center;
+    }
+
+    .titre {
+        text-align: center;
+        width: 85%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .traitMetier {
+        display: none;
+    }
+
+    .description {
+        margin: 1rem;
+    }
+
+    .formation {
+        width: 85%;
+    }
+
+    .devWeb,
+    .bacPro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .datesFormation,
+    .detailsFormation,
+    .descriptionFormation {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .experiences {
+        width: 85%;
+    }
+
+    .balso,
+    .serviTrans,
+    .marandaise,
+    .canadian,
+    .leclerc,
+    .superU,
+    .laPoste,
+    .stage {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .datesEmplois,
+    .fonctions {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .recommandations {
+        width: 85%;
+    }
+
+    .reco {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recommandation1,
+    .recommandation2 {
+        width: 100%;
+    }
+
+    footer {
+        width: 85%;
+    }
+}
