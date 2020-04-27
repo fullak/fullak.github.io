@@ -1,13 +1,18 @@
 body {
     padding: 0;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     background-image: url("../images/back.jpg");
 }
 
-p {
-    text-align: justify;
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #FF5722;
 }
 
 li {
@@ -15,8 +20,13 @@ li {
     margin-bottom: 1rem;
 }
 
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
 h3 {
-    font-size: 18px;
     text-transform: uppercase;
     padding: 0;
     margin: 0;
@@ -24,7 +34,6 @@ h3 {
 }
 
 h4 {
-    font-size: 15px;
     padding: 0;
     margin: 0;
 }
@@ -83,23 +92,23 @@ h4 {
     width: 90%;
     display: flex;
     background-color: white;
-    box-sizing: border-box;
-    box-shadow: 6px -6px 8px black;
+
 }
 
 /* sideBar */
 
 .sidebar {
     background-color: #343434;
-    width: 25%;
+    width: 30%;
     color: white;
 }
 
 .photoProfile,
 ul.contact,
 .description,
+.listeCompetences,
 .listeLoisirs {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .photoProfil {
@@ -120,6 +129,12 @@ ul.contact,
     text-align: center;
     padding: 1rem;
     text-transform: uppercase;
+}
+
+.listeCompetences {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .listeLoisirs {
@@ -144,8 +159,7 @@ ul.contact,
 
 .titre {
     order: 1;
-    padding: 2rem;
-    width: 90%;
+    padding: 1rem 0rem 2rem 0rem;
 }
 
 .sidebarMobile {
@@ -157,27 +171,30 @@ ul.contact,
 
 .formation {
     order: 3;
-    width: 90%;
+    margin-top: 1rem;
 }
 
 .experiences {
     order: 4;
-    width: 90%;
+    padding-top: 1rem;
 }
 
 .recommandations {
     order: 5;
-    width: 90%;
 }
 
 /* titre */
 
 .titreInfo {
-    font-size: 3rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .prenom {
     color: #FF5722;
+    margin-right: 1rem;
 }
 
 /* formation */
@@ -222,11 +239,6 @@ ul.contact,
     width: 70px;
 }
 
-.formation,
-.experiences,
-.recommandations {
-    padding: 2rem;
-}
 
 .listeExperiences,
 .detailsformations {
@@ -239,18 +251,10 @@ ul.contact,
     flex-direction: column;
 }
 
-.balso,
-.serviTrans,
-.marandaise,
-.canadian,
-.leclerc,
-.superU,
-.laPoste,
-.stage {
+.experience {
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
-    padding-right: 1rem;
     padding-bottom: 1rem;
     flex-wrap: wrap;
 }
@@ -278,7 +282,7 @@ ul.contact,
     font-size: 100%;
     width: 30%;
     margin-right: 5rem;
-    margin-top: 1rem;
+    padding-top: 2rem;
 }
 
 .recommandationListe1,
@@ -296,69 +300,10 @@ footer {
     order: 5;
     border-top: solid #FF5722 2px;
     font-size: 10px;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    padding-top: 1rem;
-    width: 90%;
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    .listeFormation {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sidebar {
-        zoom: 0.8;
-    }
-
+    margin-top: 2rem;
 }
 
-@media (min-width: 457px) and (max-width: 767px) {
-
-    .sidebar {
-        display: none;
-    }
-
-    .listeFormation {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .main {
-        padding: 0;
-    }
-    .sidebarMobile {
-        display: initial;
-        padding: 0;
-        margin: 0;
-    }
-
-    .nom,
-    .prenom {
-        text-align: center;
-    }
-
-    .titre {
-        text-align: center;
-    }
-
-    .contact {
-        text-align: center;
-    }
-
-    .traitMetier {
-        display: none;
-    }
-
-    .description {
-        margin: 1rem;
-    }
-}
-
-@media (max-width: 456px) {
+@media (max-width: 980px) {
 
     .sidebar {
         display: none;
@@ -377,24 +322,29 @@ footer {
     .main {
         padding: 0;
     }
+
     .sidebarMobile {
         display: initial;
         padding: 0;
         margin: 0;
     }
 
-    .nom,
-    .prenom {
+    .titre {
         text-align: center;
     }
 
-    .titre {
-        text-align: center;
-        width: 85%;
+    .titreInfo {
+        justify-content: center;
     }
 
     .contact {
         text-align: center;
+    }
+
+    .formation,
+    .experiences,
+    .recommandations {
+        margin: 2rem 1rem;
     }
 
     .traitMetier {
@@ -405,8 +355,9 @@ footer {
         margin: 1rem;
     }
 
-    .formation {
-        width: 85%;
+    .competencesBloc {
+        display: flex;
+        justify-content: center;
     }
 
     .devWeb,
@@ -422,18 +373,7 @@ footer {
         width: 100%;
     }
 
-    .experiences {
-        width: 85%;
-    }
-
-    .balso,
-    .serviTrans,
-    .marandaise,
-    .canadian,
-    .leclerc,
-    .superU,
-    .laPoste,
-    .stage {
+    .experience {
         flex-direction: column;
         text-align: center;
     }
@@ -448,9 +388,7 @@ footer {
         text-align: center;
     }
 
-    .recommandations {
-        width: 85%;
-    }
+
 
     .reco {
         flex-direction: column;
@@ -460,9 +398,5 @@ footer {
     .recommandation1,
     .recommandation2 {
         width: 100%;
-    }
-
-    footer {
-        width: 85%;
     }
 }

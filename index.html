@@ -10,96 +10,52 @@
 </head>
 
 <body>
-<div class="mainSite">
+    <div class="mainSite">
 
-    <!-- SideBar -->
-    <aside class="sidebar">
-        <div class="photoProfile">
-            <img src="images/pp.jpg" alt="photo_de_profil" class="photoProfil">
-        </div>
-        <div class="contact">
-            <h3 class="sidebarTitle">Contact</h3>
-            <ul class="contact">
-                <li><strong>Adresse</strong><br>
-                    <span>58 rue Alphonse de Saintonge,</span><br>
-                    <span>La Rochelle, France</span>
-                </li>
-                <li><strong>Téléphone</strong><br>
-                    <span>06.24.75.33.98</span>
-                </li>
-                <li><strong>email</strong><br>
-                    <span>brochardtristan@gmail.com</span>
-                </li>
-                <li><strong>Site web</strong><br>
-                    <span>fullak.github.io</span>
-                </li>
-                <li><strong>Skype</strong><br>
-                    <span>@user</span>
-                </li>
-            </ul>
-        </div>
-        <div class="aPropos">
-            <h3 class="sidebarTitle">A propos de moi</h3>
-            <p class="description">Je m'appelle Tristan Brochard, j'ai 27 ans, je suis né le 18 Février 1993.
-                Après plusieurs années dans la grande distribution et divers emplois alimentaires,
-                et passionné depuis mon plus jeunes âge par les nouvelles technologies et l'informatique.
-                J'ai profité d'une fin de contrat pour m'orienter vers le domaine du développement Web.
-            </p>
-        </div>
-        <div class="loisirs">
-            <h3 class="sidebarTitle">Loisirs</h3>
-            <ul class="listeLoisirs">
-                <li><i class="fas fa-gamepad iconsSidebar"></i></li>
-                <li><i class="fas fa-headphones iconsSidebar"></i></li>
-                <li><i class="fas fa-book-open iconsSidebar"></i></li>
-            </ul>
-        </div>
-    </aside>
-
-    <!-- Main -->
-    <section class="main">
-        <div class="titre">
-            <div class="titreInfo">
-                <span class="prenom"><strong>TRISTAN</strong></span>
-                <span class="nom">BROCHARD</span>
-            </div>
-            <div class="metier">
-                <span class="monMetier">Developpeur web</span>
-                <div class="traitMetier"></div>
-            </div>
-        </div>
-
-        <div class="sidebarMobile">
+        <!-- SideBar -->
+        <aside class="sidebar">
             <div class="photoProfile">
                 <img src="images/pp.jpg" alt="photo_de_profil" class="photoProfil">
             </div>
-            <div class="contact">
+            <address class="contact">
                 <h3 class="sidebarTitle">Contact</h3>
                 <ul class="contact">
                     <li><strong>Adresse</strong><br>
-                        <span>58 rue Alphonse de Saintonge, La Rochelle, France</span>
+                        <a href="https://goo.gl/maps/vVcw9bj83tZNpWFs7">58 rue Alphonse de Saintonge,<br>
+                        La Rochelle, France</a>
                     </li>
                     <li><strong>Téléphone</strong><br>
-                        <span>06.24.75.33.98</span>
+                        <a href="tel:+330624753398">06.24.75.33.98</a>
                     </li>
                     <li><strong>email</strong><br>
-                        <span>brochardtristan@gmail.com</span>
+                        <a href="mailto:brochardtristan@gmail.com">brochardtristan@gmail.com</a>
                     </li>
                     <li><strong>Site web</strong><br>
-                        <span>fullak.github.io</span>
+                        <a href="http://fullak.github.io">fullak.github.io</a>
                     </li>
                     <li><strong>Skype</strong><br>
-                        <span>@user</span>
+                        <a href="#">@user</a>
                     </li>
                 </ul>
-            </div>
+            </address>
             <div class="aPropos">
                 <h3 class="sidebarTitle">A propos de moi</h3>
-                <p class="description">Je m'appelle Tristan Brochard, j'ai 27 ans, je suis né le 18 Février 1993.
+                <article class="description">Je m'appelle Tristan Brochard, j'ai 27 ans, je suis né le 18 Février 1993.
                     Après plusieurs années dans la grande distribution et divers emplois alimentaires,
                     et passionné depuis mon plus jeunes âge par les nouvelles technologies et l'informatique.
                     J'ai profité d'une fin de contrat pour m'orienter vers le domaine du développement Web.
-                </p>
+                </article>
+            </div>
+            <div class="competences">
+                <h3 class="sidebarTitle">Compétences</h3>
+                <ul class="listeCompetences">
+                    <li><i class="fab fa-html5 iconHTML"></i>HTML5</li>
+                    <li><i class="fab fa-css3-alt iconCSS"></i>CSS3</li>
+                    <li><i class="fab fa-git-alt iconGit"></i>Git & Github</li>
+                    <li><i class="fas fa-cogs iconGear"></i>Optimisation (SEO)</li>
+                    <li><i class="fab fa-js-square iconJS"></i>Javascript</li>
+                    <li><i class="fab fa-node-js iconNodeJS"></i>Node.js</li>
+                </ul>
             </div>
             <div class="loisirs">
                 <h3 class="sidebarTitle">Loisirs</h3>
@@ -109,194 +65,255 @@
                     <li><i class="fas fa-book-open iconsSidebar"></i></li>
                 </ul>
             </div>
-        </div>
+        </aside>
 
-        <div class="formation">
-            <h3 class="mainTitle"><i class="fas fa-graduation-cap icons"></i>Formations</h3>
-            <div class="trait"></div>
-
-            <div class="detailsformations">
-                <div class="devWeb">
-                    <div class="dot"><i class="far fa-dot-circle iconDot"></i></div>
-                    <div class="datesFormation">
-                        <span>2020</span>
-                        <span>Online</span>
-                    </div>
-                    <div class="descriptionFormation">
-                        <div class="detailsFormationTitle">
-                            <h3>Openclassrooms</h3>
-                            <h4>Junior Web Developer</h4>
-                        </div>
-                        <div class="detailsFormationListe">
-                            <ul class="listeFormation">
-                                <li><i class="fab fa-html5 iconHTML"></i>HTML5</li>
-                                <li><i class="fab fa-css3-alt iconCSS"></i>CSS3</li>
-                                <li><i class="fab fa-git-alt iconGit"></i>Git & Github</li>
-                                <li><i class="fas fa-cogs iconGear"></i>Optimisation (SEO)</li>
-                                <li><i class="fab fa-js-square iconJS"></i>Javascript</li>
-                                <li><i class="fab fa-node-js iconNodeJS"></i>Node.js</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bacPro">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesFormation">
-                        <span>2009 - 2012</span>
-                        <span>Fontenay le comte</span>
-                    </div>
-                    <div class="detailsFormation">
-                        <h3>Lycée François Rabelais</h3>
-                        <h4>Bac Professionnel de maintenance industriel</h4>
-                        <p>Assurer la maintenance corrective et préventive d'installations à caractère industriel.
-                            Participer aussi bien à l'amélioration et à la modification de matériels existants qu'à la
-                            mise en œuvre de nouveaux équipements.</p>
-                    </div>
+        <!-- Main -->
+        <section class="main">
+            <div class="titre">
+                <header class="titreInfo">
+                    <h1 class="prenom"><strong>TRISTAN</strong></h1>
+                    <h1 class="nom">BROCHARD</h1>
+                </header>
+                <div class="metier">
+                    <h2 class="monMetier">Developpeur web</h2>
+                    <div class="traitMetier"></div>
                 </div>
             </div>
-        </div>
 
-        <div class="experiences">
-            <h3 class="mainTitle"><i class="fas fa-briefcase icons"></i>Expériences</h3>
-            <div class="trait"></div>
-            <div class="listeExperiences">
-                <div class="balso">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>octobre 2018 - mars 2020</span>
-                        <span>Rochefort (17)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>Balso</h3>
-                        <h4>Magasinier</h4>
-                        <p class="descriptionMetier">Gestion des stock dans un magasin aéronautiques
-                            Gestion et expédition des commandes sur les différents sites en France et à l'étranger.
-                        </p>
-                    </div>
+            <div class="sidebarMobile">
+                <div class="photoProfile">
+                    <img src="images/pp.jpg" alt="photo_de_profil" class="photoProfil">
                 </div>
-                <div class="serviTrans">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>avril 2018 - septembre 2018</span>
-                        <span>La Rochelle (17)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>Servi-Trans</h3>
-                        <h4>Coursier médical</h4>
-                        <p class="descriptionMetier">Transport de courriers médical, d'échantillons biologiques entre
-                            les laboratoires de La Rochelle et Rochefort.
-                        </p>
-                    </div>
-                </div>
-                <div class="marandaise">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>juin 2017 - février 2018</span>
-                        <span>Marans (17)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>Super U</h3>
-                        <h4>Employé libre service bazar</h4>
-                        <p class="descriptionMetier">Gestion des stocks et mise en rayons.
-                        </p>
-                    </div>
-                </div>
-                <div class="canadian">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>octobre 2016 - Avril 2017</span>
-                        <span>Rennes (35)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>Canadian Steak House</h3>
-                        <h4>Cuisinier - Plongeur</h4>
-                        <p class="descriptionMetier">Préparations et mise en place des entrées et desserts.
-                        </p>
-                    </div>
-                </div>
-                <div class="leclerc">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>décembre 2015 - août 2016</span>
-                        <span>Vern sur seiche (35)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>E.Leclerc</h3>
-                        <h4>Employé commercial Liquide</h4>
-                        <p class="descriptionMetier">Gestion des stocks et mise en rayons.</p>
-                    </div>
-                </div>
-                <div class="superU">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>juillet 2015 - août 2015</span>
-                        <span>avril 2014 - septembre 2014</span>
-                        <span>La tranche sur mer (85)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>Super U</h3>
-                        <h4>Employé commercial DPH</h4>
-                        <p class="descriptionMetier">Gestion des stocks et mise en rayons.</p>
-                    </div>
-                </div>
-                <div class="laPoste">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>mai 2013 - avril 2014</span>
-                        <span>Fontenay le Comte (85)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>La Poste</h3>
-                        <h4>Facteur</h4>
-                        <p class="descriptionMetier">Tri et distribution du courrier et colis.</p>
-                    </div>
-                </div>
-                <div class="stage">
-                    <div class="dot"><i class="fas fa-circle iconDot"></i></div>
-                    <div class="datesEmplois">
-                        <span>mars 2012 - avril 2012</span>
-                        <span>Damvix (85)</span>
-                    </div>
-                    <div class="fonctions">
-                        <h3>TFCM</h3>
-                        <h4>Stagiaire en maintenance industrielle</h4>
-                        <p class="descriptionMetier">Stage de terminale dans l'équipe de maintenance de
-                            l'entreprise.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="recommandations">
-            <h3 class="mainTitle"><i class="fas fa-pencil-alt icons"></i>Recommandations</h3>
-            <div class="trait"></div>
-            <div class="reco">
-                <div class="recommandation1">
-                    <ul class="recommandationListe1">
-                        <li>John Doe</li>
-                        <li>Fonction</li>
-                        <li>Tel : 06.00.00.00.00</li>
-                        <li>email@mail.com</li>
+                <div class="contact">
+                    <h3 class="sidebarTitle">Contact</h3>
+                    <ul class="contact">
+                        <li><strong>Adresse</strong><br>
+                            <a href="https://goo.gl/maps/vVcw9bj83tZNpWFs7">58 rue Alphonse de Saintonge,<br>
+                                La Rochelle, France</a>
+                        </li>
+                        <li><strong>Téléphone</strong><br>
+                            <a href="tel:+330624753398">06.24.75.33.98</a>
+                        </li>
+                        <li><strong>email</strong><br>
+                            <a href="mailto:brochardtristan@gmail.com">brochardtristan@gmail.com</a>
+                        </li>
+                        <li><strong>Site web</strong><br>
+                            <a href="http://fullak.github.io">fullak.github.io</a>
+                        </li>
+                        <li><strong>Skype</strong><br>
+                            <a href="#">@user</a>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="recommandation2">
-                    <ul class="recommandationListe2">
-                        <li>John Doe</li>
-                        <li>Fonction</li>
-                        <li>Tel : 06.00.00.00.00</li>
-                        <li>email@mail.com</li>
+                <div class="aPropos">
+                    <h3 class="sidebarTitle">A propos de moi</h3>
+                    <p class="description">Je m'appelle Tristan Brochard, j'ai 27 ans, je suis né le 18 Février 1993.
+                        Après plusieurs années dans la grande distribution et divers emplois alimentaires,
+                        et passionné depuis mon plus jeunes âge par les nouvelles technologies et l'informatique.
+                        J'ai profité d'une fin de contrat pour m'orienter vers le domaine du développement Web.
+                    </p>
+                </div>
+                <div class="competences">
+                    <h3 class="sidebarTitle">Compétences</h3>
+                    <div class="competencesBloc">
+                        <ul class="listeCompetences">
+                            <li><i class="fab fa-html5 iconHTML"></i>HTML5</li>
+                            <li><i class="fab fa-css3-alt iconCSS"></i>CSS3</li>
+                            <li><i class="fab fa-git-alt iconGit"></i>Git & Github</li>
+                            <li><i class="fas fa-cogs iconGear"></i>Optimisation (SEO)</li>
+                            <li><i class="fab fa-js-square iconJS"></i>Javascript</li>
+                            <li><i class="fab fa-node-js iconNodeJS"></i>Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="loisirs">
+                    <h3 class="sidebarTitle">Loisirs</h3>
+                    <ul class="listeLoisirs">
+                        <li><i class="fas fa-gamepad iconsSidebar"></i></li>
+                        <li><i class="fas fa-headphones iconsSidebar"></i></li>
+                        <li><i class="fas fa-book-open iconsSidebar"></i></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <footer>
-            <p>Copyright © 2020 Tristan Brochard</p>
-        </footer>
-    </section>
 
-</div>
+            <div class="formation">
+                <h3 class="mainTitle"><i class="fas fa-graduation-cap icons"></i>Formations</h3>
+                <div class="trait"></div>
+
+                <div class="detailsformations">
+                    <div class="devWeb">
+                        <div class="dot"><i class="far fa-dot-circle iconDot"></i></div>
+                        <div class="datesFormation">
+                            <span>2020</span>
+                            <span>Online</span>
+                        </div>
+                        <div class="descriptionFormation">
+                            <div class="detailsFormationTitle">
+                                <h3>Openclassrooms</h3>
+                                <h4>Junior Web Developer</h4>
+                                <p>Actuellement en formation de développeur web à distance via la plateforme OpenClassRooms.
+                                Au terme de mes 6 mois de formation, je serais titulaire d'un diplôme de niveau Bac +2.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bacPro">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesFormation">
+                            <span>2009 - 2012</span>
+                            <span>Fontenay le comte</span>
+                        </div>
+                        <div class="detailsFormation">
+                            <h3>Lycée François Rabelais</h3>
+                            <h4>Bac Professionnel de maintenance industriel</h4>
+                            <p>Assurer la maintenance corrective et préventive d'installations à caractère industriel.
+                                Participer aussi bien à l'amélioration et à la modification de matériels existants qu'à la
+                                mise en œuvre de nouveaux équipements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiences">
+                <h3 class="mainTitle"><i class="fas fa-briefcase icons"></i>Expériences</h3>
+                <div class="trait"></div>
+                <div class="listeExperiences">
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>octobre 2018 - mars 2020</span>
+                            <span>Rochefort (17)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>Balso</h3>
+                            <h4>Magasinier</h4>
+                            <p class="descriptionMetier">Gestion des stock dans un magasin aéronautiques
+                                Gestion et expédition des commandes sur les différents sites en France et à l'étranger.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>avril 2018 - septembre 2018</span>
+                            <span>La Rochelle (17)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>Servi-Trans</h3>
+                            <h4>Coursier médical</h4>
+                            <p class="descriptionMetier">Transport de courriers médical, d'échantillons biologiques entre
+                                les laboratoires de La Rochelle et Rochefort.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>juin 2017 - février 2018</span>
+                            <span>Marans (17)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>Super U</h3>
+                            <h4>Employé libre service bazar</h4>
+                            <p class="descriptionMetier">Gestion des stocks et mise en rayons.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>octobre 2016 - Avril 2017</span>
+                            <span>Rennes (35)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>Canadian Steak House</h3>
+                            <h4>Cuisinier - Plongeur</h4>
+                            <p class="descriptionMetier">Préparations et mise en place des entrées et desserts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>décembre 2015 - août 2016</span>
+                            <span>Vern sur seiche (35)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>E.Leclerc</h3>
+                            <h4>Employé commercial Liquide</h4>
+                            <p class="descriptionMetier">Gestion des stocks et mise en rayons.</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>juillet 2015 - août 2015</span>
+                            <span>avril 2014 - septembre 2014</span>
+                            <span>La tranche sur mer (85)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>Super U</h3>
+                            <h4>Employé commercial DPH</h4>
+                            <p class="descriptionMetier">Gestion des stocks et mise en rayons.</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>mai 2013 - avril 2014</span>
+                            <span>Fontenay le Comte (85)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>La Poste</h3>
+                            <h4>Facteur</h4>
+                            <p class="descriptionMetier">Tri et distribution du courrier et colis.</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="dot"><i class="fas fa-circle iconDot"></i></div>
+                        <div class="datesEmplois">
+                            <span>mars 2012 - avril 2012</span>
+                            <span>Damvix (85)</span>
+                        </div>
+                        <div class="fonctions">
+                            <h3>TFCM</h3>
+                            <h4>Stagiaire en maintenance industrielle</h4>
+                            <p class="descriptionMetier">Stage de terminale dans l'équipe de maintenance de
+                                l'entreprise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommandations">
+                <h3 class="mainTitle"><i class="fas fa-pencil-alt icons"></i>Recommandations</h3>
+                <div class="trait"></div>
+                <div class="reco">
+                    <div class="recommandation1">
+                        <ul class="recommandationListe1">
+                            <li>Maxime Soleil</li>
+                            <li>Leader Aéronautique</li>
+                            <li>Tel : 06.00.00.00.00</li>
+                            <li>email@mail.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="recommandation2">
+                        <ul class="recommandationListe2">
+                            <li>Marie-Laure Lesouple</li>
+                            <li>Responsable RH</li>
+                            <li>Tel : 06.00.00.00.00</li>
+                            <li>email@mail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Copyright © 2020 Tristan Brochard</p>
+            </footer>
+        </section>
+
+    </div>
 
 
 </body>
