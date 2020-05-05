@@ -309,7 +309,7 @@ footer {
         display: none;
     }
 
-    .dot {
+    .hidden-on-mobile {
         display: none;
     }
 
